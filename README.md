@@ -48,7 +48,7 @@ This project is an independent, privacy-focused offline conversational droid sys
 iPlay 50 mini proのTermux上で、Pythonで開発しています。Tapo C200のカメラと、マイク、スピーカを使って、会話システムを構築します。カメラのプロセスは、顔の特徴量と7つの感情スコアをリアルタイムで会話モジュールにUDP送信します。タブレット上の軽量AIであるGemma 2Bは、分からない言葉が飛び込んで来た時の会話のドメイン判定に使います。バッチではリソースを与え、ユーザーの要件に沿ったELIZA的辞書を生成することに特化して使用しています。
 
 **[EN]**
-The system is developed in Python on Termux on a iPlay 50 mini pro. It constructs a conversational system using a Tapo C200 camera, and a microphone and speaker unit recognized as a headset. The camera process transmits facial features and 7 emotion scores in real-time to the conversation module via UDP. The lightweight AI, Gemma 2B, on the tablet is used for conversation domain classification when unknown words are encountered. In batch processing, it is used exclusively to generate ELIZA-style dictionaries tailored to user requirements by providing it with resources.
+The system is developed in Python on Termux on a iPlay 50 mini pro. It constructs a conversational system using a Tapo C200 camera, and a microphone and speaker. The camera process transmits facial features and 7 emotion scores in real-time to the conversation module via UDP. The lightweight AI, Gemma 2B, on the tablet is used for conversation domain classification when unknown words are encountered. In batch processing, it is used exclusively to generate ELIZA-style dictionaries tailored to user requirements by providing it with resources.
 
 ---
 
