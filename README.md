@@ -161,7 +161,7 @@ The system is developed in Python on Termux on a Play 50 mini pro. It constructs
 ---
 
 ## 6. テスト結果 / Test Results
-**[JA]** 最終的に、98％のテストスクリプトに合格しました。自作ヘッドセットや、購入したbluetoofhヘッドセットが、上手く認識されなかったので、タグレットのマイクとスピーカーを使っています。
+**[JA]** 最終的に、98％のテストスクリプトに合格しました。自作ヘッドセットや、購入したbluetoofhヘッドセットが、上手く認識されなかったので、タブレットのマイクとスピーカーを使っています。
 **[EN]** Ultimately, the system passed 98% of the test scripts.
 [EN] Since my DIY headset and a purchased Bluetooth headset were not recognized properly, I am currently using the tablet's built-in microphone and speakers.
 
