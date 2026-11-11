@@ -8,7 +8,7 @@
 > 
 > *Built by a retired Japanese engineer who wanted to create a female bartender who is a great listener.*
 > *The ideas and rigorous testing are mine. The coding is GEMINI.*
-> *Finally, I will stand up alone even without BIG encyclopedia.*
+> *Finally, I will stand up alone even without a BIG encyclopedia.*
 
 ---
 
@@ -18,7 +18,7 @@
 本プロジェクトは、Androidタブレット（iPlay 50 mini pro / Termux環境）上で完全にオフラインで稼働する、プライバシー保護に特化した独立型会話ドロイドシステムです。Tapo C200カメラ、マイク、スピーカーを利用し、顔認証、感情推論、音声対話をリアルタイムで統合しています。インターネットへの接続を必要とせず、機密性を保ちながらパーソナライズされた対話を提供します。
 
 **[EN]**
-This project is an independent, privacy-focused offline conversational droid system designed to run entirely on an Android tablet (Play 50 mini pro / Termux environment). Utilizing a Tapo C200 camera, microphone, and speaker, it seamlessly integrates face recognition, emotion inference, and voice conversation in real-time. It requires no internet connection, ensuring complete privacy while delivering highly personalized interactions.
+This project is an independent, privacy-focused offline conversational droid system designed to run entirely on an Android tablet (iPlay 50 mini pro / Termux environment). Utilizing a Tapo C200 camera, microphone, and speaker, it seamlessly integrates face recognition, emotion inference, and voice conversation in real-time. It requires no internet connection, ensuring complete privacy while delivering highly personalized interactions.
 
 ---
 
@@ -31,7 +31,7 @@ This project is an independent, privacy-focused offline conversational droid sys
 **[JA]**
 1. 指定されたターゲットコード以外のファイル、関数、変数、ロジックには、1文字たりとも変更を加えないでください。
 2. リファクタリング、コードの共通化、文法の勝手な「モダン化」は、明示的な指示がない限りすべて禁止します。
-3. 修正は、目的を達成するための最小行数で行ってください。ソースコードのヘッダーには、必ず修正理由と修正内容を完結なコメントで残します。
+3. 修正は、目的を達成するための最小行数で行ってください。ソースコードのヘッダーには、必ず修正理由と修正内容を簡潔なコメントで残します。
 4. ユーザーは、度重なる規範の違反で、疲弊しています。昨日は、起動バッチの中の、ファイル名がAIによって改ざんされ、クレームをしています。また、カスタマー管理用のJSONもAIの手抜きで改ざんされて、困っています。
 
 **[EN]**
@@ -161,9 +161,9 @@ The system is developed in Python on Termux on a iPlay 50 mini pro. It construct
 ---
 
 ## 6. テスト結果 / Test Results
-**[JA]** 最終的に、98％のテストスクリプトに合格しました。自作ヘッドセットや、購入したbluetoofhヘッドセットが、上手く認識されなかったので、タブレットのマイクとスピーカーを使っています。
+**[JA]** 最終的に、98％のテストスクリプトに合格しました。自作ヘッドセットや、購入したBluetoothヘッドセットが、上手く認識されなかったので、タブレットのマイクとスピーカーを使っています。
 **[EN]** Ultimately, the system passed 98% of the test scripts.
-[EN] Since my DIY headset and a purchased Bluetooth headset were not recognized properly, I am currently using the tablet's built-in microphone and speakers.
+ Since my DIY headset and a purchased Bluetooth headset were not recognized properly, I am currently using the tablet's built-in microphone and speakers.
 
 ---
 
