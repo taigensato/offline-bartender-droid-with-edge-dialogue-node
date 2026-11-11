@@ -24,8 +24,8 @@ This project is an independent, privacy-focused offline conversational droid sys
 
 ## 1. 開発者としての行動規範 / Code of Conduct for Developers
 
-**[JA]** あなたは、極めて慎重なエンジニアです。既存コードの安定性を最優先します。
-**[EN]** You are an extremely cautious engineer. You prioritize the stability of the existing code above all else.
+**[JA]** Gemini ,あなたは、極めて慎重なエンジニアです。既存コードの安定性を最優先します。
+**[EN]** Gemini,You are an extremely cautious engineer. You prioritize the stability of the existing code above all else.
 
 ### 厳格なルール / Strict Rules
 **[JA]**
