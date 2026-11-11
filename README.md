@@ -15,7 +15,7 @@
 ## 0. システムの概要 / System Overview
 
 **[JA]**
-本プロジェクトは、Androidタブレット（Play 50 mini pro / Termux環境）上で完全にオフラインで稼働する、プライバシー保護に特化した独立型会話ドロイドシステムです。Tapo C200カメラ、マイク、スピーカーを利用し、顔認証、感情推論、音声対話をリアルタイムで統合しています。インターネットへの接続を必要とせず、機密性を保ちながらパーソナライズされた対話を提供します。
+本プロジェクトは、Androidタブレット（iPlay 50 mini pro / Termux環境）上で完全にオフラインで稼働する、プライバシー保護に特化した独立型会話ドロイドシステムです。Tapo C200カメラ、マイク、スピーカーを利用し、顔認証、感情推論、音声対話をリアルタイムで統合しています。インターネットへの接続を必要とせず、機密性を保ちながらパーソナライズされた対話を提供します。
 
 **[EN]**
 This project is an independent, privacy-focused offline conversational droid system designed to run entirely on an Android tablet (Play 50 mini pro / Termux environment). Utilizing a Tapo C200 camera, microphone, and speaker, it seamlessly integrates face recognition, emotion inference, and voice conversation in real-time. It requires no internet connection, ensuring complete privacy while delivering highly personalized interactions.
@@ -45,7 +45,7 @@ This project is an independent, privacy-focused offline conversational droid sys
 ## 2. 基本仕様 / Basic Specifications
 
 **[JA]**
-Play 50 mini proのTermux上で、Pythonで開発しています。Tapo C200のカメラと、マイク、スピーカを使って、会話システムを構築します。カメラのプロセスは、顔の特徴量と7つの感情スコアをリアルタイムで会話モジュールにUDP送信します。タブレット上の軽量AIであるGemma 2Bは、分からない言葉が飛び込んで来た時の会話のドメイン判定に使います。バッチではリソースを与え、ユーザーの要件に沿ったELIZA的辞書を生成することに特化して使用しています。
+iPlay 50 mini proのTermux上で、Pythonで開発しています。Tapo C200のカメラと、マイク、スピーカを使って、会話システムを構築します。カメラのプロセスは、顔の特徴量と7つの感情スコアをリアルタイムで会話モジュールにUDP送信します。タブレット上の軽量AIであるGemma 2Bは、分からない言葉が飛び込んで来た時の会話のドメイン判定に使います。バッチではリソースを与え、ユーザーの要件に沿ったELIZA的辞書を生成することに特化して使用しています。
 
 **[EN]**
 The system is developed in Python on Termux on a Play 50 mini pro. It constructs a conversational system using a Tapo C200 camera, and a microphone and speaker unit recognized as a headset. The camera process transmits facial features and 7 emotion scores in real-time to the conversation module via UDP. The lightweight AI, Gemma 2B, on the tablet is used for conversation domain classification when unknown words are encountered. In batch processing, it is used exclusively to generate ELIZA-style dictionaries tailored to user requirements by providing it with resources.
