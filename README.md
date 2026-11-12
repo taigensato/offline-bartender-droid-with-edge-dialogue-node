@@ -7,7 +7,7 @@
 > 巨大な百科事典がなくても、システムは自立して立ち上がる。
 > 
 > *Built by a retired Japanese engineer who wanted to create a female bartender who is a great listener.*
-> *The ideas and rigorous testing are mine. The coding is GEMINI.*
+> *The ideas and rigorous testing are mine. The coding is done by GEMINI.*
 > *Finally, I will stand up alone even without a BIG encyclopedia.*
 
 ---
