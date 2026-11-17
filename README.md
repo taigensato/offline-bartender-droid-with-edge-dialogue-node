@@ -164,6 +164,7 @@ The system is developed in Python on Termux on a iPlay 50 mini pro. It construct
 **[JA]** 最終的に、98％のテストスクリプトに合格しました。自作ヘッドセットや、購入したBluetoothヘッドセットが、上手く認識されなかったので、タブレットのマイクとスピーカーを使っています。
 **[EN]** Ultimately, the system passed 98% of the test scripts.
  Since my DIY headset and a purchased Bluetooth headset were not recognized properly, I am currently using the tablet's built-in microphone and speakers.
+ 
  残念ながら、コードレヴューをすると、GEMINIが、Gemmma2Bを使うところを、設計原則を無視して、タイマー等でごまかしているところが、ありました。コードは修正しませんが、llama=serverに与える資源と熱量を制限して、ドメインを判定させるということは虚偽ではありません。プロンプロと Pythonで整形しています。
  Unfortunately, upon code review, I discovered that Gemini bypassed the design principles. Where Gemma 2B should have been utilized, it simulated the process using timers and temporary workarounds.
 
